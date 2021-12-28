@@ -1,2 +1,0 @@
-/usr/bin/ar qc libSolInstru.a  CMakeFiles/SolInstru.dir/ASTAnalyser.cpp.o CMakeFiles/SolInstru.dir/ASTNodes.cpp.o CMakeFiles/SolInstru.dir/ASTVisitor.cpp.o
-/usr/bin/ranlib libSolInstru.a

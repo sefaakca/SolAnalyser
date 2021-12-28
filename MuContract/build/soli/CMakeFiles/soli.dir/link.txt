@@ -1,1 +1,0 @@
-/usr/bin/c++  -std=c++11  -rdynamic CMakeFiles/soli.dir/CommandLineInterface.cpp.o CMakeFiles/soli.dir/main.cpp.o  -o soli ../libSolInstru/libSolInstru.a ../libUtils/libUtils.a 
