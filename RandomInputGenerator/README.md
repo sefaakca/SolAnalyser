@@ -1,11 +1,9 @@
 ## Input Generator
 
-I built an automated input generation tool for smart contracts that provides inputs for all transactions and functions in a contract.
-
+We automatically generate inputs for instrumented smart contracts. First, we use Solidity compiler to generate Application binary interface (ABI) and bytecode files. Then, using these two files, we generate inputs for smart contracts. Our input generator, implemented in Java,  supports all Solidity types such as signed/unsigned integers types with widths ranging from 8 to 256. The generated inputs call each of the functions in the smart contract at least once.
 
 
 ## How to use
-
 
 java -jar ABIAnalyser.jar $abi_file.abi $name_of_the_contract $bytecode_file.txt $output_file.json
 
