@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/s1798183/Documents/TestSolidity-master/MuContract/libUtils/Utils.cpp
+Utils.hpp
+/home/s1798183/Documents/TestSolidity-master/MuContract/libUtils/Utils.hpp
+
+/home/s1798183/Documents/TestSolidity-master/MuContract/libUtils/Utils.hpp
+algorithm
+-
+iostream
+-
+list
+-
+string
+-
+vector
+-
+cstdlib
+-
+
